@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link href="//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.12.2/dijit/themes/claro/claro.css" />
     <script>
         window.dojoConfig = {
@@ -13,34 +12,41 @@
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/dojo/1.12.2/dojo/dojo.js"></script>
     <style>
+        html {
+            width: 100%;
+            height: 100%;
+            background: #6441A5;
+            background: -webkit-gradient(linear, left bottom, left top, from(#2a0845), to(#6441A5));
+            background: linear-gradient(to top, #2a0845, #6441A5);
+        }
+
         body {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.25rem;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            -webkit-font-smoothing: antialiased;
+            -moz-font-smoothing: antialiased;
+            -o-font-smoothing: antialiased;
         }
 
         h1 {
-            font-size: 3rem;
-            font-weight: 100;
+            font-size: 60px;
+            font-weight: 500;
+            color: white;
         }
-
 
         p {
-            font-weight: 200;
-        }
-
-        .content {
-            width: 30rem;
+            font-size: 20px;
+            font-weight: 300;
+            color: #cdbfe3;
+            margin-bottom: 40px;
         }
 
         .centered {
             position: fixed;
-            top: 50%;
+            top: 20%;
             left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        #select {
-            margin-top: 1.5rem;
+            -webkit-transform: translate(-20%, -50%);
+            transform: translate(-20%, -50%);
         }
 
         .SelectOptgroup__flattened {
@@ -48,11 +54,18 @@
         }
 
         .SelectOptgroup__nested {
-            margin-left: 10px;
+            margin-left: 1rem;
         }
 
         .SelectOptgroup .SelectOptgroup__nested {
             margin-left: 0;
+        }
+
+        .icon {
+            background-image: url(icon.png);
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding-right: 28px;
         }
     </style>
     <script>
@@ -84,7 +97,7 @@
                         {
                             label: '<div class="' + cssNested + '">Dojo</div>',
                             value: 'dojo',
-                            selected: true
+
                         },
                         {
                             label: '<div class="' + cssNested + '">Ember.js</div>',
@@ -97,11 +110,11 @@
                         {
                             label: '<div class="' + cssNested + '">Google Web Toolkit</div>',
                             value: 'googleWebToolkit'
+
                         },
                         {
                             label: '<div class="' + cssFlattened + '">JavaScript libraries</</div>',
-                            value: '',
-                            group: true
+                            value: ''
                         },
                         {
                             label: '<div class="' + cssNested + '">jQuery</div>',
@@ -118,7 +131,37 @@
                         {
                             label: '<div class="' + cssNested + '">Prototype</div>',
                             value: 'prototype'
-                        }
+                        },
+                        {
+                            label: '',
+                            value: ''
+                        },
+                        {
+                            label: '<div class="' + cssFlattened + '">JavaScript Tools</</div>',
+                            value: '',
+                            group: true
+                        },
+                        {
+                            label: '<div class="' + cssNested + '"><span class="icon">Grunt</span></div>',
+                            value: 'grunt'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Babel Transpiler </div>',
+                            value: 'babel'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Webpack Module Bundler</div>',
+                            value: 'webpack',
+                            selected: true
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Gulp Toolkit</div>',
+                            value: 'gulp'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Closure Tools</div>',
+                            value: 'closure'
+                        },
                     ]
                 }, 'select');
 
@@ -129,9 +172,9 @@
     </script>
 </head>
 <body class="claro">
-    <div class="content centered">
+    <div class="centered">
         <h1>SelectOptgroup</h1>
-        <p>SelectOptgroup is a styleable, searchable drop down select box for Dojo which includes grouping of options.</p>
+        <p>Example of SelectOptgroup with nested options, separator and icon.</p>
         <div id="select"></div>
     </div>
 </body>

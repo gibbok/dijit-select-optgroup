@@ -32,15 +32,15 @@ var instance = new SelectOptgroup({
             optgroup: true // mark menu item as optgroup
         },
         {
-            label: 'option item',
-            value: 'angular '// mark menu item as option
+            label: 'Option item',
+            value: 'option '// mark menu item as option
         },
         {
             label: '', // empty strings mark menu item as separator
             value: ''
         },
         {
-            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>', // html allowed in menu item
+            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Icon Text</span></div>', // html allowed in menu item
             value: 'grunt'
         }
     ]

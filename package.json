@@ -20,6 +20,7 @@
         "connect": "^3.4.1",
         "open": "^0.0.5",
         "jshint-stylish": "^2.1.0",
+        "jshint ": "^2.9.4",
         "jscs": "^2.9.0",
         "gulp": "^3.9.1",
         "gulp-connect": "^2.3.1",

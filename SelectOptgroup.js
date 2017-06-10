@@ -1,4 +1,4 @@
-define([
+﻿define([
     'dojo/_base/declare',
     'dojo/_base/lang',
     'dijit/form/Select',
@@ -12,8 +12,8 @@ define([
     MenuSeparator,
     MenuItem,
     ) {
-    return declare(Select, {
-            class: 'SelectGroupOptgroup',
+        return declare(Select, {
+            class: 'SelectOptgroup',
             postCreate: function () {
                 this.inherited(arguments);
 
@@ -108,91 +108,4 @@ define([
                 }.bind(this.dropDown);
             }
         });
-
-        var cssFlattened = 'SelectGroupOptgroup__flattened';
-        var cssNested = 'SelectGroupOptgroup__nested';
-
-        var select = new SelectGroupOptgroup({
-            name: 'select',
-            options: [
-                {
-                    label: '<div class="' + cssFlattened + '">Colors</div>',
-                    value: '',
-                    group: true
-                },
-                {
-                    label: '<div class="' + cssNested + '">Red</div>',
-                    value: 'red'
-                },
-                {
-                    label: '<div class="' + cssNested + '">Green</div>',
-                    value: 'green',
-                    selected: true
-                },
-                {
-                    label: '<div class="' + cssNested + '">Yellow</div>',
-                    value: 'yellow'
-                },
-                {
-                    label: '<div class="' + cssNested + '">Purple</div>',
-                    value: 'purple'
-                },
-                {
-                    label: '',
-                    value: ''
-                },
-                {
-                    label: '<div class="' + cssFlattened + '">Empty group 1</div>',
-                    value: '',
-                    group: true
-                },
-                {
-                    label: '<div class="' + cssFlattened + '">Empty group 2</div>',
-                    value: '',
-                    group: true
-                },
-                {
-                    label: '',
-                    value: ''
-                },
-                {
-                    label: '<div class="' + cssFlattened + '">Food I love</</div>',
-                    value: '',
-                    group: true
-                },
-                {
-                    label: '<div class="' + cssNested + '">Tomatoes</div>',
-                    value: 'tomatoes'
-                },
-                {
-                    label: '<div class="' + cssNested + '">Apples</div>',
-                    value: 'apples'
-                },
-                {
-                    label: '<div class="' + cssFlattened + '">Fruits</</div>',
-                    value: '',
-                    group: true
-                },
-                {
-                    label: '<div class="' + cssNested + '">Banana</div>',
-                    value: 'banana'
-                },
-                {
-                    label: '<div class="' + cssNested + '">Kiwi</div>',
-                    value: 'kiwi'
-                },
-                {
-                    label: '<div class="' + cssNested + '">Apple</div>',
-                    value: 'apple'
-                },
-                {
-                    label: '<div class="' + cssNested + '">Orange</div>',
-                    value: 'orange'
-                }
-            ]
-        }, 'select');
-
-        select.on('change', function () {
-            console.log(this.get('value'));
-        })
     });

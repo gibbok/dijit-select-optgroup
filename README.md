@@ -40,7 +40,7 @@ var instance = new SelectOptgroup({
             value: ''
         },
         {
-            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>', // html is allowed in a menu item
+            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>', // html allowed in menu item
             value: 'grunt'
         }
     ]
@@ -66,4 +66,4 @@ SelectOptgroup add by default two CSS classes `SelectOptgroup__flattened` and `S
     }
 ```
 
- [Working example.](example.html)
+ [Working example available at this page.](example.html)

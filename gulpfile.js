@@ -12,9 +12,9 @@ gulp.task('connect', function () {
     });
 });
 
-gulp.task('open', function () {
+gulp.task('example', function () {
     // open browser
-    var uri = 'http://localhost:8080/';
+    var uri = 'http://localhost:8080/example.html';
     open(uri);
 });
 

@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.12.2/dijit/themes/claro/claro.css" />
+    <script>
+        window.dojoConfig = {
+            parseOnLoad: false,
+            async: true
+        };
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.12.2/dojo/dojo.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.25rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 100;
+        }
+
+
+        p {
+            font-weight: 200;
+        }
+
+        .content {
+            width: 30rem;
+        }
+
+        .centered {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #select {
+            margin-top: 1.5rem;
+        }
+
+        .SelectOptgroup__flattened {
+            margin-left: 0;
+        }
+
+        .SelectOptgroup__nested {
+            margin-left: 10px;
+        }
+
+        .SelectOptgroup .SelectOptgroup__nested {
+            margin-left: 0;
+        }
+    </style>
+    <script>
+        require([
+            '../SelectOptgroup.js',
+            'dojo/domReady!'
+        ], function (
+            SelectOptgroup
+        ) {
+                var cssFlattened = 'SelectOptgroup__flattened';
+                var cssNested = 'SelectOptgroup__nested';
+
+                var select = new SelectOptgroup({
+                    name: 'select',
+                    options: [
+                        {
+                            label: '<div class="' + cssFlattened + '">JavaScript Frameworks</div>',
+                            value: '',
+                            group: true
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">AngularJS</div>',
+                            value: 'angular '
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Backbone.js</div>',
+                            value: 'backbone'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Dojo</div>',
+                            value: 'dojo',
+                            selected: true
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Ember.js</div>',
+                            value: 'ember'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Ext JS</div>',
+                            value: 'ext'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Google Web Toolkit</div>',
+                            value: 'googleWebToolkit'
+                        },
+                        {
+                            label: '<div class="' + cssFlattened + '">JavaScript libraries</</div>',
+                            value: '',
+                            group: true
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">jQuery</div>',
+                            value: 'jquery'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Midori</div>',
+                            value: 'midori'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">MooTools</div>',
+                            value: 'mootools'
+                        },
+                        {
+                            label: '<div class="' + cssNested + '">Prototype</div>',
+                            value: 'prototype'
+                        }
+                    ]
+                }, 'select');
+
+                select.on('change', function () {
+                    console.log(this.get('value'));
+                })
+            });
+    </script>
+</head>
+<body class="claro">
+    <div class="content centered">
+        <h1>SelectOptgroup</h1>
+        <p>SelectOptgroup is a styleable, searchable drop down select box for Dojo which includes grouping of options.</p>
+        <div id="select"></div>
+    </div>
+</body>
+</html>

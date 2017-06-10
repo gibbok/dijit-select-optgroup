@@ -13,8 +13,8 @@ SelectOptgroup extends [dijit.form.Select](http://dojotoolkit.org/reference-guid
 
 ### How do I run the example?
 - First install all dependencies folder using: `npm install`.
-- Now runs your local server: `gulp connect`.
-- Run the example: `gulp example`.
+- Now run your local server: `gulp connect`.
+- Open the example: `gulp example`.
 
 ---
 ### API
@@ -24,53 +24,46 @@ SelectOptgroup uses the same API for [dijit.form.Select](http://dojotoolkit.org/
 #### Example
 
 ```javascript
-var select = new SelectOptgroup({
-    name: 'select',
+var instance = new SelectOptgroup({
     options: [
-    {
-        label: 'Optgroup item',
-        value: '',
-        optgroup: true // mark the item as optgroup
-    },
-    {
-        label: 'option item',
-        value: 'angular '// mark the as an option
-    },
- 
-    {
-        label: '', // both empty strings add a separator
-        value: ''
-    },
-    {
-        label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>', // html is allowed
-        value: 'grunt'
-    }
+        {
+            label: 'Optgroup item',
+            value: '',
+            optgroup: true // mark menu item as optgroup
+        },
+        {
+            label: 'option item',
+            value: 'angular '// mark menu item as option
+        },
+        {
+            label: '', // empty strings mark menu item as separator
+            value: ''
+        },
+        {
+            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>', // html is allowed in a menu item
+            value: 'grunt'
+        }
     ]
-}, 'select');
+}, 'domId');
 ```
 ---
 
 ### Customization
 You can customize the defaults layout for the entire componenet using CSS.
 
-SelectOptgroup add by default two CSS `SelectOptgroup__flattened` and `SelectOptgroup__nested`.
+SelectOptgroup add by default two CSS classes `SelectOptgroup__flattened` and `SelectOptgroup__nested`.
 
-`SelectOptgroup__flattened`: for menu item marked as optgroup.
-
-`SelectOptgroup__nested`: for menu item marked as option.
-
+#### Example
 
 ```css
-
     .SelectOptgroup__flattened .dijitMenuItemLabel {
-        /* style menu item as optgroup*/
+        /* style menu item as optgroup */
         padding-left: 0 !important;
     }
     .SelectOptgroup__nested .dijitMenuItemLabel {
-        /* style menu item as option*/
+        /* style menu item as option */
         padding-left: 25px !important;
     }
-
 ```
 
  [Working example.](example.html)

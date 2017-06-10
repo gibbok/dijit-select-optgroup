@@ -1,0 +1,1222 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.4
+3 info using node@v5.4.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData connect
+20 silly mapToRegistry name connect
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/connect
+24 silly fetchNamedPackageData open
+25 silly mapToRegistry name open
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/open
+29 silly fetchNamedPackageData jshint-stylish
+30 silly mapToRegistry name jshint-stylish
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+34 silly fetchNamedPackageData jscs
+35 silly mapToRegistry name jscs
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/jscs
+39 silly fetchNamedPackageData gulp
+40 silly mapToRegistry name gulp
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gulp
+44 silly fetchNamedPackageData gulp-connect
+45 silly mapToRegistry name gulp-connect
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+49 silly fetchNamedPackageData gulp-jscs
+50 silly mapToRegistry name gulp-jscs
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs
+54 silly fetchNamedPackageData gulp-jshint
+55 silly mapToRegistry name gulp-jshint
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+59 silly fetchNamedPackageData gulp-jscs-stylish
+60 silly mapToRegistry name gulp-jscs-stylish
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs-stylish
+64 verbose request uri https://registry.npmjs.org/open
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 8:27:43 AM
+67 verbose request using bearer token for auth
+68 verbose request id 1e14d98e02bfa415
+69 verbose etag W/"591cbd5e-1dbf"
+70 verbose lastModified Wed, 17 May 2017 21:15:10 GMT
+71 http request GET https://registry.npmjs.org/open
+72 verbose request uri https://registry.npmjs.org/jshint-stylish
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 8:27:43 AM
+75 verbose request using bearer token for auth
+76 verbose etag W/"5935bb1c-5ee2"
+77 verbose lastModified Mon, 05 Jun 2017 20:12:12 GMT
+78 http request GET https://registry.npmjs.org/jshint-stylish
+79 verbose request uri https://registry.npmjs.org/gulp-jscs
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 8:27:43 AM
+82 verbose request using bearer token for auth
+83 verbose etag W/"58853710-b3ef"
+84 verbose lastModified Sun, 22 Jan 2017 22:49:52 GMT
+85 http request GET https://registry.npmjs.org/gulp-jscs
+86 verbose request uri https://registry.npmjs.org/gulp
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 8:27:43 AM
+89 verbose request using bearer token for auth
+90 verbose etag W/"5936918e-1d4b5"
+91 verbose lastModified Tue, 06 Jun 2017 11:27:10 GMT
+92 http request GET https://registry.npmjs.org/gulp
+93 verbose request uri https://registry.npmjs.org/gulp-connect
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 8:27:43 AM
+96 verbose request using bearer token for auth
+97 verbose etag W/"5904e42b-11d9b"
+98 verbose lastModified Sat, 29 Apr 2017 19:06:19 GMT
+99 http request GET https://registry.npmjs.org/gulp-connect
+100 verbose request uri https://registry.npmjs.org/jscs
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 8:27:43 AM
+103 verbose request using bearer token for auth
+104 verbose etag W/"592f1113-334fe"
+105 verbose lastModified Wed, 31 May 2017 18:53:07 GMT
+106 http request GET https://registry.npmjs.org/jscs
+107 verbose request uri https://registry.npmjs.org/gulp-jshint
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 8:27:43 AM
+110 verbose request using bearer token for auth
+111 verbose etag W/"592091be-11c91"
+112 verbose lastModified Sat, 20 May 2017 18:58:06 GMT
+113 http request GET https://registry.npmjs.org/gulp-jshint
+114 verbose request uri https://registry.npmjs.org/connect
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 8:27:43 AM
+117 verbose request using bearer token for auth
+118 verbose etag W/"590bc7af-54b0e"
+119 verbose lastModified Fri, 05 May 2017 00:30:39 GMT
+120 http request GET https://registry.npmjs.org/connect
+121 verbose request uri https://registry.npmjs.org/gulp-jscs-stylish
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 8:27:43 AM
+124 verbose request using bearer token for auth
+125 verbose etag W/"58812910-3b05"
+126 verbose lastModified Thu, 19 Jan 2017 21:01:04 GMT
+127 http request GET https://registry.npmjs.org/gulp-jscs-stylish
+128 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+129 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+130 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+131 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+132 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+133 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+134 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+135 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+136 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+137 info attempt registry request try #2 at 8:27:53 AM
+138 verbose request using bearer token for auth
+139 verbose etag W/"591cbd5e-1dbf"
+140 verbose lastModified Wed, 17 May 2017 21:15:10 GMT
+141 http request GET https://registry.npmjs.org/open
+142 info attempt registry request try #2 at 8:27:53 AM
+143 verbose request using bearer token for auth
+144 verbose etag W/"5935bb1c-5ee2"
+145 verbose lastModified Mon, 05 Jun 2017 20:12:12 GMT
+146 http request GET https://registry.npmjs.org/jshint-stylish
+147 info attempt registry request try #2 at 8:27:53 AM
+148 verbose request using bearer token for auth
+149 verbose etag W/"58853710-b3ef"
+150 verbose lastModified Sun, 22 Jan 2017 22:49:52 GMT
+151 http request GET https://registry.npmjs.org/gulp-jscs
+152 info attempt registry request try #2 at 8:27:53 AM
+153 verbose request using bearer token for auth
+154 verbose etag W/"5936918e-1d4b5"
+155 verbose lastModified Tue, 06 Jun 2017 11:27:10 GMT
+156 http request GET https://registry.npmjs.org/gulp
+157 info attempt registry request try #2 at 8:27:53 AM
+158 verbose request using bearer token for auth
+159 verbose etag W/"5904e42b-11d9b"
+160 verbose lastModified Sat, 29 Apr 2017 19:06:19 GMT
+161 http request GET https://registry.npmjs.org/gulp-connect
+162 info attempt registry request try #2 at 8:27:53 AM
+163 verbose request using bearer token for auth
+164 verbose etag W/"592f1113-334fe"
+165 verbose lastModified Wed, 31 May 2017 18:53:07 GMT
+166 http request GET https://registry.npmjs.org/jscs
+167 info attempt registry request try #2 at 8:27:53 AM
+168 verbose request using bearer token for auth
+169 verbose etag W/"592091be-11c91"
+170 verbose lastModified Sat, 20 May 2017 18:58:06 GMT
+171 http request GET https://registry.npmjs.org/gulp-jshint
+172 info attempt registry request try #2 at 8:27:53 AM
+173 verbose request using bearer token for auth
+174 verbose etag W/"590bc7af-54b0e"
+175 verbose lastModified Fri, 05 May 2017 00:30:39 GMT
+176 http request GET https://registry.npmjs.org/connect
+177 info attempt registry request try #2 at 8:27:53 AM
+178 verbose request using bearer token for auth
+179 verbose etag W/"58812910-3b05"
+180 verbose lastModified Thu, 19 Jan 2017 21:01:04 GMT
+181 http request GET https://registry.npmjs.org/gulp-jscs-stylish
+182 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+183 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+184 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+185 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+186 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+187 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+188 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+189 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+190 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+191 info attempt registry request try #3 at 8:28:53 AM
+192 verbose request using bearer token for auth
+193 verbose etag W/"591cbd5e-1dbf"
+194 verbose lastModified Wed, 17 May 2017 21:15:10 GMT
+195 http request GET https://registry.npmjs.org/open
+196 info attempt registry request try #3 at 8:28:53 AM
+197 verbose request using bearer token for auth
+198 verbose etag W/"5935bb1c-5ee2"
+199 verbose lastModified Mon, 05 Jun 2017 20:12:12 GMT
+200 http request GET https://registry.npmjs.org/jshint-stylish
+201 info attempt registry request try #3 at 8:28:53 AM
+202 verbose request using bearer token for auth
+203 verbose etag W/"58853710-b3ef"
+204 verbose lastModified Sun, 22 Jan 2017 22:49:52 GMT
+205 http request GET https://registry.npmjs.org/gulp-jscs
+206 info attempt registry request try #3 at 8:28:53 AM
+207 verbose request using bearer token for auth
+208 verbose etag W/"5936918e-1d4b5"
+209 verbose lastModified Tue, 06 Jun 2017 11:27:10 GMT
+210 http request GET https://registry.npmjs.org/gulp
+211 info attempt registry request try #3 at 8:28:53 AM
+212 verbose request using bearer token for auth
+213 verbose etag W/"5904e42b-11d9b"
+214 verbose lastModified Sat, 29 Apr 2017 19:06:19 GMT
+215 http request GET https://registry.npmjs.org/gulp-connect
+216 info attempt registry request try #3 at 8:28:53 AM
+217 verbose request using bearer token for auth
+218 verbose etag W/"592f1113-334fe"
+219 verbose lastModified Wed, 31 May 2017 18:53:07 GMT
+220 http request GET https://registry.npmjs.org/jscs
+221 info attempt registry request try #3 at 8:28:53 AM
+222 verbose request using bearer token for auth
+223 verbose etag W/"592091be-11c91"
+224 verbose lastModified Sat, 20 May 2017 18:58:06 GMT
+225 http request GET https://registry.npmjs.org/gulp-jshint
+226 info attempt registry request try #3 at 8:28:53 AM
+227 verbose request using bearer token for auth
+228 verbose etag W/"590bc7af-54b0e"
+229 verbose lastModified Fri, 05 May 2017 00:30:39 GMT
+230 http request GET https://registry.npmjs.org/connect
+231 info attempt registry request try #3 at 8:28:53 AM
+232 verbose request using bearer token for auth
+233 verbose etag W/"58812910-3b05"
+234 verbose lastModified Thu, 19 Jan 2017 21:01:04 GMT
+235 http request GET https://registry.npmjs.org/gulp-jscs-stylish
+236 silly get cb [ 304, undefined ]
+237 verbose etag https://registry.npmjs.org/open from cache
+238 verbose get saving open to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\open\.cache.json
+239 silly get cb [ 304, undefined ]
+240 verbose etag https://registry.npmjs.org/jshint-stylish from cache
+241 verbose get saving jshint-stylish to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\jshint-stylish\.cache.json
+242 silly get cb [ 304, undefined ]
+243 verbose etag https://registry.npmjs.org/gulp-jscs from cache
+244 verbose get saving gulp-jscs to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-jscs\.cache.json
+245 silly get cb [ 304, undefined ]
+246 verbose etag https://registry.npmjs.org/gulp from cache
+247 verbose get saving gulp to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+248 silly get cb [ 304, undefined ]
+249 verbose etag https://registry.npmjs.org/gulp-connect from cache
+250 verbose get saving gulp-connect to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-connect\.cache.json
+251 silly get cb [ 304, undefined ]
+252 verbose etag https://registry.npmjs.org/jscs from cache
+253 verbose get saving jscs to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\jscs\.cache.json
+254 silly get cb [ 304, undefined ]
+255 verbose etag https://registry.npmjs.org/gulp-jshint from cache
+256 verbose get saving gulp-jshint to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-jshint\.cache.json
+257 silly get cb [ 304, undefined ]
+258 verbose etag https://registry.npmjs.org/connect from cache
+259 verbose get saving connect to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\connect\.cache.json
+260 silly get cb [ 304, undefined ]
+261 verbose etag https://registry.npmjs.org/gulp-jscs-stylish from cache
+262 verbose get saving gulp-jscs-stylish to C:\Users\gibbo\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-jscs-stylish\.cache.json
+263 silly resolveWithNewModule gulp-connect@2.3.1 checking installable status
+264 silly cache add args [ 'gulp-connect@^2.3.1', null ]
+265 verbose cache add spec gulp-connect@^2.3.1
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'gulp-connect@^2.3.1',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'gulp-connect',
+266 silly cache add   rawSpec: '^2.3.1',
+266 silly cache add   spec: '>=2.3.1-0 <3.0.0-0',
+266 silly cache add   type: 'range' }
+267 silly addNamed gulp-connect@>=2.3.1-0 <3.0.0-0
+268 verbose addNamed ">=2.3.1-0 <3.0.0-0" is a valid semver range for gulp-connect
+269 silly addNameRange { name: 'gulp-connect',
+269 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+269 silly addNameRange   hasData: false }
+270 silly mapToRegistry name gulp-connect
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+274 verbose addNameRange registry:https://registry.npmjs.org/gulp-connect not in flight; fetching
+275 silly resolveWithNewModule gulp-jscs@3.0.2 checking installable status
+276 silly cache add args [ 'gulp-jscs@^3.0.2', null ]
+277 verbose cache add spec gulp-jscs@^3.0.2
+278 silly cache add parsed spec Result {
+278 silly cache add   raw: 'gulp-jscs@^3.0.2',
+278 silly cache add   scope: null,
+278 silly cache add   name: 'gulp-jscs',
+278 silly cache add   rawSpec: '^3.0.2',
+278 silly cache add   spec: '>=3.0.2-0 <4.0.0-0',
+278 silly cache add   type: 'range' }
+279 silly addNamed gulp-jscs@>=3.0.2-0 <4.0.0-0
+280 verbose addNamed ">=3.0.2-0 <4.0.0-0" is a valid semver range for gulp-jscs
+281 silly addNameRange { name: 'gulp-jscs',
+281 silly addNameRange   range: '>=3.0.2-0 <4.0.0-0',
+281 silly addNameRange   hasData: false }
+282 silly mapToRegistry name gulp-jscs
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npmjs.org/
+285 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs
+286 verbose addNameRange registry:https://registry.npmjs.org/gulp-jscs not in flight; fetching
+287 silly resolveWithNewModule open@0.0.5 checking installable status
+288 silly cache add args [ 'open@^0.0.5', null ]
+289 verbose cache add spec open@^0.0.5
+290 silly cache add parsed spec Result {
+290 silly cache add   raw: 'open@^0.0.5',
+290 silly cache add   scope: null,
+290 silly cache add   name: 'open',
+290 silly cache add   rawSpec: '^0.0.5',
+290 silly cache add   spec: '0.0.5',
+290 silly cache add   type: 'range' }
+291 silly addNamed open@0.0.5
+292 verbose addNamed "0.0.5" is a plain semver version for open
+293 silly mapToRegistry name open
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/open
+297 verbose addNameVersion registry:https://registry.npmjs.org/open not in flight; fetching
+298 silly resolveWithNewModule jshint-stylish@2.2.1 checking installable status
+299 silly cache add args [ 'jshint-stylish@^2.1.0', null ]
+300 verbose cache add spec jshint-stylish@^2.1.0
+301 silly cache add parsed spec Result {
+301 silly cache add   raw: 'jshint-stylish@^2.1.0',
+301 silly cache add   scope: null,
+301 silly cache add   name: 'jshint-stylish',
+301 silly cache add   rawSpec: '^2.1.0',
+301 silly cache add   spec: '>=2.1.0-0 <3.0.0-0',
+301 silly cache add   type: 'range' }
+302 silly addNamed jshint-stylish@>=2.1.0-0 <3.0.0-0
+303 verbose addNamed ">=2.1.0-0 <3.0.0-0" is a valid semver range for jshint-stylish
+304 silly addNameRange { name: 'jshint-stylish',
+304 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+304 silly addNameRange   hasData: false }
+305 silly mapToRegistry name jshint-stylish
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+309 verbose addNameRange registry:https://registry.npmjs.org/jshint-stylish not in flight; fetching
+310 silly resolveWithNewModule gulp@3.9.1 checking installable status
+311 silly cache add args [ 'gulp@^3.9.1', null ]
+312 verbose cache add spec gulp@^3.9.1
+313 silly cache add parsed spec Result {
+313 silly cache add   raw: 'gulp@^3.9.1',
+313 silly cache add   scope: null,
+313 silly cache add   name: 'gulp',
+313 silly cache add   rawSpec: '^3.9.1',
+313 silly cache add   spec: '>=3.9.1-0 <4.0.0-0',
+313 silly cache add   type: 'range' }
+314 silly addNamed gulp@>=3.9.1-0 <4.0.0-0
+315 verbose addNamed ">=3.9.1-0 <4.0.0-0" is a valid semver range for gulp
+316 silly addNameRange { name: 'gulp', range: '>=3.9.1-0 <4.0.0-0', hasData: false }
+317 silly mapToRegistry name gulp
+318 silly mapToRegistry using default registry
+319 silly mapToRegistry registry https://registry.npmjs.org/
+320 silly mapToRegistry uri https://registry.npmjs.org/gulp
+321 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+322 silly resolveWithNewModule jscs@2.11.0 checking installable status
+323 silly cache add args [ 'jscs@^2.9.0', null ]
+324 verbose cache add spec jscs@^2.9.0
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'jscs@^2.9.0',
+325 silly cache add   scope: null,
+325 silly cache add   name: 'jscs',
+325 silly cache add   rawSpec: '^2.9.0',
+325 silly cache add   spec: '>=2.9.0-0 <3.0.0-0',
+325 silly cache add   type: 'range' }
+326 silly addNamed jscs@>=2.9.0-0 <3.0.0-0
+327 verbose addNamed ">=2.9.0-0 <3.0.0-0" is a valid semver range for jscs
+328 silly addNameRange { name: 'jscs', range: '>=2.9.0-0 <3.0.0-0', hasData: false }
+329 silly mapToRegistry name jscs
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry uri https://registry.npmjs.org/jscs
+333 verbose addNameRange registry:https://registry.npmjs.org/jscs not in flight; fetching
+334 silly resolveWithNewModule gulp-jshint@2.0.4 checking installable status
+335 silly cache add args [ 'gulp-jshint@^2.0.0', null ]
+336 verbose cache add spec gulp-jshint@^2.0.0
+337 silly cache add parsed spec Result {
+337 silly cache add   raw: 'gulp-jshint@^2.0.0',
+337 silly cache add   scope: null,
+337 silly cache add   name: 'gulp-jshint',
+337 silly cache add   rawSpec: '^2.0.0',
+337 silly cache add   spec: '>=2.0.0-0 <3.0.0-0',
+337 silly cache add   type: 'range' }
+338 silly addNamed gulp-jshint@>=2.0.0-0 <3.0.0-0
+339 verbose addNamed ">=2.0.0-0 <3.0.0-0" is a valid semver range for gulp-jshint
+340 silly addNameRange { name: 'gulp-jshint',
+340 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+340 silly addNameRange   hasData: false }
+341 silly mapToRegistry name gulp-jshint
+342 silly mapToRegistry using default registry
+343 silly mapToRegistry registry https://registry.npmjs.org/
+344 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+345 verbose addNameRange registry:https://registry.npmjs.org/gulp-jshint not in flight; fetching
+346 silly resolveWithNewModule connect@3.6.1 checking installable status
+347 silly cache add args [ 'connect@^3.4.1', null ]
+348 verbose cache add spec connect@^3.4.1
+349 silly cache add parsed spec Result {
+349 silly cache add   raw: 'connect@^3.4.1',
+349 silly cache add   scope: null,
+349 silly cache add   name: 'connect',
+349 silly cache add   rawSpec: '^3.4.1',
+349 silly cache add   spec: '>=3.4.1-0 <4.0.0-0',
+349 silly cache add   type: 'range' }
+350 silly addNamed connect@>=3.4.1-0 <4.0.0-0
+351 verbose addNamed ">=3.4.1-0 <4.0.0-0" is a valid semver range for connect
+352 silly addNameRange { name: 'connect', range: '>=3.4.1-0 <4.0.0-0', hasData: false }
+353 silly mapToRegistry name connect
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry https://registry.npmjs.org/
+356 silly mapToRegistry uri https://registry.npmjs.org/connect
+357 verbose addNameRange registry:https://registry.npmjs.org/connect not in flight; fetching
+358 silly resolveWithNewModule gulp-jscs-stylish@1.4.0 checking installable status
+359 silly cache add args [ 'gulp-jscs-stylish@^1.3.0', null ]
+360 verbose cache add spec gulp-jscs-stylish@^1.3.0
+361 silly cache add parsed spec Result {
+361 silly cache add   raw: 'gulp-jscs-stylish@^1.3.0',
+361 silly cache add   scope: null,
+361 silly cache add   name: 'gulp-jscs-stylish',
+361 silly cache add   rawSpec: '^1.3.0',
+361 silly cache add   spec: '>=1.3.0-0 <2.0.0-0',
+361 silly cache add   type: 'range' }
+362 silly addNamed gulp-jscs-stylish@>=1.3.0-0 <2.0.0-0
+363 verbose addNamed ">=1.3.0-0 <2.0.0-0" is a valid semver range for gulp-jscs-stylish
+364 silly addNameRange { name: 'gulp-jscs-stylish',
+364 silly addNameRange   range: '>=1.3.0-0 <2.0.0-0',
+364 silly addNameRange   hasData: false }
+365 silly mapToRegistry name gulp-jscs-stylish
+366 silly mapToRegistry using default registry
+367 silly mapToRegistry registry https://registry.npmjs.org/
+368 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs-stylish
+369 verbose addNameRange registry:https://registry.npmjs.org/gulp-jscs-stylish not in flight; fetching
+370 verbose get https://registry.npmjs.org/open not expired, no request
+371 verbose get https://registry.npmjs.org/jshint-stylish not expired, no request
+372 silly addNameRange number 2 { name: 'jshint-stylish',
+372 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+372 silly addNameRange   hasData: true }
+373 silly addNameRange versions [ 'jshint-stylish',
+373 silly addNameRange   [ '0.1.0',
+373 silly addNameRange     '0.1.1',
+373 silly addNameRange     '0.1.2',
+373 silly addNameRange     '0.1.3',
+373 silly addNameRange     '0.1.4',
+373 silly addNameRange     '0.1.5',
+373 silly addNameRange     '0.2.0',
+373 silly addNameRange     '0.3.0',
+373 silly addNameRange     '0.4.0',
+373 silly addNameRange     '1.0.0',
+373 silly addNameRange     '1.0.1',
+373 silly addNameRange     '1.0.2',
+373 silly addNameRange     '2.0.0',
+373 silly addNameRange     '2.0.1',
+373 silly addNameRange     '2.1.0',
+373 silly addNameRange     '2.2.0',
+373 silly addNameRange     '2.2.1' ] ]
+374 silly addNamed jshint-stylish@2.2.1
+375 verbose addNamed "2.2.1" is a plain semver version for jshint-stylish
+376 verbose get https://registry.npmjs.org/gulp-jscs not expired, no request
+377 silly addNameRange number 2 { name: 'gulp-jscs', range: '>=3.0.2-0 <4.0.0-0', hasData: true }
+378 silly addNameRange versions [ 'gulp-jscs',
+378 silly addNameRange   [ '0.1.0',
+378 silly addNameRange     '0.1.1',
+378 silly addNameRange     '0.1.2',
+378 silly addNameRange     '0.1.3',
+378 silly addNameRange     '0.2.0',
+378 silly addNameRange     '0.2.1',
+378 silly addNameRange     '0.3.0',
+378 silly addNameRange     '0.3.1',
+378 silly addNameRange     '0.3.2',
+378 silly addNameRange     '0.4.0',
+378 silly addNameRange     '0.4.1',
+378 silly addNameRange     '0.4.2',
+378 silly addNameRange     '0.5.0',
+378 silly addNameRange     '0.6.0',
+378 silly addNameRange     '0.6.1',
+378 silly addNameRange     '1.0.0',
+378 silly addNameRange     '1.1.0',
+378 silly addNameRange     '1.1.1',
+378 silly addNameRange     '1.1.2',
+378 silly addNameRange     '1.2.0',
+378 silly addNameRange     '1.2.1',
+378 silly addNameRange     '1.2.2',
+378 silly addNameRange     '1.3.0',
+378 silly addNameRange     '1.3.1',
+378 silly addNameRange     '1.4.0',
+378 silly addNameRange     '1.5.0',
+378 silly addNameRange     '1.5.1',
+378 silly addNameRange     '1.5.2',
+378 silly addNameRange     '1.6.0',
+378 silly addNameRange     '2.0.0',
+378 silly addNameRange     '3.0.0',
+378 silly addNameRange     '3.0.1',
+378 silly addNameRange     '3.0.2',
+378 silly addNameRange     '4.0.0' ] ]
+379 silly addNamed gulp-jscs@3.0.2
+380 verbose addNamed "3.0.2" is a plain semver version for gulp-jscs
+381 verbose get https://registry.npmjs.org/gulp-connect not expired, no request
+382 silly addNameRange number 2 { name: 'gulp-connect',
+382 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+382 silly addNameRange   hasData: true }
+383 silly addNameRange versions [ 'gulp-connect',
+383 silly addNameRange   [ '0.0.1',
+383 silly addNameRange     '0.1.1',
+383 silly addNameRange     '0.1.2',
+383 silly addNameRange     '0.1.3',
+383 silly addNameRange     '0.1.4',
+383 silly addNameRange     '0.1.5',
+383 silly addNameRange     '0.1.6',
+383 silly addNameRange     '0.2.0',
+383 silly addNameRange     '0.3.0',
+383 silly addNameRange     '0.3.1',
+383 silly addNameRange     '0.4.0',
+383 silly addNameRange     '0.5.0',
+383 silly addNameRange     '0.6.0',
+383 silly addNameRange     '0.7.0',
+383 silly addNameRange     '0.8.0',
+383 silly addNameRange     '0.9.0',
+383 silly addNameRange     '1.0.0',
+383 silly addNameRange     '1.0.1',
+383 silly addNameRange     '1.0.2',
+383 silly addNameRange     '1.0.3',
+383 silly addNameRange     '1.0.4',
+383 silly addNameRange     '1.0.5',
+383 silly addNameRange     '1.0.6',
+383 silly addNameRange     '1.0.7',
+383 silly addNameRange     '1.0.9',
+383 silly addNameRange     '1.0.10',
+383 silly addNameRange     '1.1.0',
+383 silly addNameRange     '1.1.1',
+383 silly addNameRange     '2.0.0',
+383 silly addNameRange     '2.0.1',
+383 silly addNameRange     '2.0.2',
+383 silly addNameRange     '2.0.3',
+383 silly addNameRange     '2.0.4',
+383 silly addNameRange     '2.0.5',
+383 silly addNameRange     '2.0.6',
+383 silly addNameRange     '2.1.0',
+383 silly addNameRange     '2.2.0',
+383 silly addNameRange     '2.3.0',
+383 silly addNameRange     '2.3.1',
+383 silly addNameRange     '3.0.0',
+383 silly addNameRange     '3.1.0',
+383 silly addNameRange     '3.1.1',
+383 silly addNameRange     '3.2.0',
+383 silly addNameRange     '3.2.1',
+383 silly addNameRange     '3.2.2',
+383 silly addNameRange     '3.2.3',
+383 silly addNameRange     '4.0.0',
+383 silly addNameRange     '4.1.0',
+383 silly addNameRange     '4.2.0',
+383 silly addNameRange     '5.0.0' ] ]
+384 silly addNamed gulp-connect@2.3.1
+385 verbose addNamed "2.3.1" is a plain semver version for gulp-connect
+386 verbose get https://registry.npmjs.org/gulp not expired, no request
+387 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1-0 <4.0.0-0', hasData: true }
+388 silly addNameRange versions [ 'gulp',
+388 silly addNameRange   [ '0.0.1',
+388 silly addNameRange     '0.0.2',
+388 silly addNameRange     '0.0.3',
+388 silly addNameRange     '0.0.4',
+388 silly addNameRange     '0.0.5',
+388 silly addNameRange     '0.0.7',
+388 silly addNameRange     '0.0.8',
+388 silly addNameRange     '0.0.9',
+388 silly addNameRange     '0.1.0',
+388 silly addNameRange     '0.2.0',
+388 silly addNameRange     '1.0.0',
+388 silly addNameRange     '1.1.0',
+388 silly addNameRange     '1.2.0',
+388 silly addNameRange     '1.2.1',
+388 silly addNameRange     '2.0.0',
+388 silly addNameRange     '2.0.1',
+388 silly addNameRange     '2.1.0',
+388 silly addNameRange     '2.2.0',
+388 silly addNameRange     '2.3.0',
+388 silly addNameRange     '2.4.0',
+388 silly addNameRange     '2.4.1',
+388 silly addNameRange     '2.6.0',
+388 silly addNameRange     '2.6.1',
+388 silly addNameRange     '2.7.0',
+388 silly addNameRange     '3.0.0',
+388 silly addNameRange     '3.1.1',
+388 silly addNameRange     '3.1.2',
+388 silly addNameRange     '3.1.3',
+388 silly addNameRange     '3.1.4',
+388 silly addNameRange     '3.2.0',
+388 silly addNameRange     '3.2.1',
+388 silly addNameRange     '3.2.2',
+388 silly addNameRange     '3.2.3',
+388 silly addNameRange     '3.2.4',
+388 silly addNameRange     '3.2.5',
+388 silly addNameRange     '3.3.0',
+388 silly addNameRange     '3.3.1',
+388 silly addNameRange     '3.3.2',
+388 silly addNameRange     '3.3.4',
+388 silly addNameRange     '3.4.0',
+388 silly addNameRange     '3.5.0',
+388 silly addNameRange     '3.5.1',
+388 silly addNameRange     '3.5.2',
+388 silly addNameRange     '3.5.5',
+388 silly addNameRange     '3.5.6',
+388 silly addNameRange     '3.6.0',
+388 silly addNameRange     '3.6.1',
+388 silly addNameRange     '3.6.2',
+388 silly addNameRange     '3.7.0',
+388 silly addNameRange     '3.8.0',
+388 silly addNameRange     '3.8.1',
+388 silly addNameRange     '3.8.2',
+388 silly addNameRange     '3.8.3',
+388 silly addNameRange     '3.8.4',
+388 silly addNameRange     '3.8.5',
+388 silly addNameRange     '3.8.6',
+388 silly addNameRange     '3.8.7',
+388 silly addNameRange     '3.8.8',
+388 silly addNameRange     '3.8.9',
+388 silly addNameRange     '3.8.10',
+388 silly addNameRange     '3.8.11',
+388 silly addNameRange     '3.9.0',
+388 silly addNameRange     '3.9.1' ] ]
+389 silly addNamed gulp@3.9.1
+390 verbose addNamed "3.9.1" is a plain semver version for gulp
+391 verbose get https://registry.npmjs.org/gulp-jshint not expired, no request
+392 silly addNameRange number 2 { name: 'gulp-jshint',
+392 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+392 silly addNameRange   hasData: true }
+393 silly addNameRange versions [ 'gulp-jshint',
+393 silly addNameRange   [ '0.0.1',
+393 silly addNameRange     '0.1.0',
+393 silly addNameRange     '1.0.0',
+393 silly addNameRange     '1.1.0',
+393 silly addNameRange     '1.2.0',
+393 silly addNameRange     '1.3.0',
+393 silly addNameRange     '1.3.1',
+393 silly addNameRange     '1.3.2',
+393 silly addNameRange     '1.3.3',
+393 silly addNameRange     '1.3.4',
+393 silly addNameRange     '1.4.0',
+393 silly addNameRange     '1.4.1',
+393 silly addNameRange     '1.4.2',
+393 silly addNameRange     '1.5.0',
+393 silly addNameRange     '1.5.1',
+393 silly addNameRange     '1.5.2',
+393 silly addNameRange     '1.5.3',
+393 silly addNameRange     '1.5.4',
+393 silly addNameRange     '1.5.5',
+393 silly addNameRange     '1.5.6',
+393 silly addNameRange     '1.6.0',
+393 silly addNameRange     '1.6.1',
+393 silly addNameRange     '1.6.2',
+393 silly addNameRange     '1.6.3',
+393 silly addNameRange     '1.6.4',
+393 silly addNameRange     '1.7.0',
+393 silly addNameRange     '1.7.1',
+393 silly addNameRange     '1.8.0',
+393 silly addNameRange     '1.8.1',
+393 silly addNameRange     '1.8.2',
+393 silly addNameRange     '1.8.3',
+393 silly addNameRange     '1.8.4',
+393 silly addNameRange     '1.8.5',
+393 silly addNameRange     '1.8.6',
+393 silly addNameRange     '1.9.0',
+393 silly addNameRange     '1.9.2',
+393 silly addNameRange     '1.9.3',
+393 silly addNameRange     '1.9.4',
+393 silly addNameRange     '1.10.0',
+393 silly addNameRange     '1.11.0',
+393 silly addNameRange     '1.11.1',
+393 silly addNameRange     '1.11.2',
+393 silly addNameRange     '1.12.0',
+393 silly addNameRange     '2.0.0',
+393 silly addNameRange     '2.0.1',
+393 silly addNameRange     '2.0.2',
+393 silly addNameRange     '2.0.3',
+393 silly addNameRange     '2.0.4' ] ]
+394 silly addNamed gulp-jshint@2.0.4
+395 verbose addNamed "2.0.4" is a plain semver version for gulp-jshint
+396 verbose get https://registry.npmjs.org/gulp-jscs-stylish not expired, no request
+397 silly addNameRange number 2 { name: 'gulp-jscs-stylish',
+397 silly addNameRange   range: '>=1.3.0-0 <2.0.0-0',
+397 silly addNameRange   hasData: true }
+398 silly addNameRange versions [ 'gulp-jscs-stylish',
+398 silly addNameRange   [ '1.0.0',
+398 silly addNameRange     '1.0.1',
+398 silly addNameRange     '1.0.2',
+398 silly addNameRange     '1.1.0',
+398 silly addNameRange     '1.1.1',
+398 silly addNameRange     '1.1.2',
+398 silly addNameRange     '1.2.0',
+398 silly addNameRange     '1.2.1',
+398 silly addNameRange     '1.3.0',
+398 silly addNameRange     '1.4.0' ] ]
+399 silly addNamed gulp-jscs-stylish@1.4.0
+400 verbose addNamed "1.4.0" is a plain semver version for gulp-jscs-stylish
+401 silly mapToRegistry name gulp-jscs
+402 silly mapToRegistry using default registry
+403 silly mapToRegistry registry https://registry.npmjs.org/
+404 silly mapToRegistry uri https://registry.npmjs.org/gulp-jscs
+405 verbose addRemoteTarball https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz not in flight; adding
+406 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz',
+406 verbose addRemoteTarball   'dc7fbb01ce2bfc8325bba7cbbf95d65e43530478' ]
+407 silly mapToRegistry name gulp-connect
+408 silly mapToRegistry using default registry
+409 silly mapToRegistry registry https://registry.npmjs.org/
+410 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+411 verbose addRemoteTarball https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz not in flight; adding
+412 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz',
+412 verbose addRemoteTarball   '14ae7173328b691252b01fc1930a39cbb24fb33c' ]
+413 verbose get https://registry.npmjs.org/jscs not expired, no request
+414 silly addNameRange number 2 { name: 'jscs', range: '>=2.9.0-0 <3.0.0-0', hasData: true }
+415 silly addNameRange versions [ 'jscs',
+415 silly addNameRange   [ '0.0.1',
+415 silly addNameRange     '0.0.2',
+415 silly addNameRange     '0.0.3',
+415 silly addNameRange     '0.0.4',
+415 silly addNameRange     '0.0.5',
+415 silly addNameRange     '0.0.6',
+415 silly addNameRange     '0.0.7',
+415 silly addNameRange     '0.0.8',
+415 silly addNameRange     '0.0.9',
+415 silly addNameRange     '0.0.10',
+415 silly addNameRange     '0.0.11',
+415 silly addNameRange     '0.0.12',
+415 silly addNameRange     '1.0.0',
+415 silly addNameRange     '1.0.1',
+415 silly addNameRange     '1.0.2',
+415 silly addNameRange     '1.0.3',
+415 silly addNameRange     '1.0.4',
+415 silly addNameRange     '1.0.5',
+415 silly addNameRange     '1.0.6',
+415 silly addNameRange     '1.0.7',
+415 silly addNameRange     '1.0.8',
+415 silly addNameRange     '1.0.10',
+415 silly addNameRange     '1.0.11',
+415 silly addNameRange     '1.0.12',
+415 silly addNameRange     '1.0.13',
+415 silly addNameRange     '1.0.14',
+415 silly addNameRange     '1.0.15',
+415 silly addNameRange     '1.1.0',
+415 silly addNameRange     '1.2.0',
+415 silly addNameRange     '1.2.1',
+415 silly addNameRange     '1.2.2',
+415 silly addNameRange     '1.2.3',
+415 silly addNameRange     '1.2.4',
+415 silly addNameRange     '1.3.0',
+415 silly addNameRange     '1.4.0',
+415 silly addNameRange     '1.4.1',
+415 silly addNameRange     '1.4.2',
+415 silly addNameRange     '1.4.3',
+415 silly addNameRange     '1.4.4',
+415 silly addNameRange     '1.4.5',
+415 silly addNameRange     '1.5.1',
+415 silly addNameRange     '1.5.2',
+415 silly addNameRange     '1.5.3',
+415 silly addNameRange     '1.5.4',
+415 silly addNameRange     '1.5.6',
+415 silly addNameRange     '1.5.7',
+415 silly addNameRange     '1.5.8',
+415 silly addNameRange     '1.5.9',
+415 silly addNameRange     '1.6.0',
+415 silly addNameRange     '1.6.1',
+415 silly addNameRange     '1.6.2',
+415 silly addNameRange     '1.7.0',
+415 silly addNameRange     '1.7.1',
+415 silly addNameRange     '1.7.2',
+415 silly addNameRange     '1.7.3',
+415 silly addNameRange     '1.8.0',
+415 silly addNameRange     '1.8.1',
+415 silly addNameRange     '1.9.0',
+415 silly addNameRange     '1.10.0',
+415 silly addNameRange     '1.11.0',
+415 silly addNameRange     '1.11.1',
+415 silly addNameRange     '1.11.2',
+415 silly addNameRange     '1.11.3',
+415 silly addNameRange     '1.12.0',
+415 silly addNameRange     '1.13.0',
+415 silly addNameRange     '1.13.1',
+415 silly addNameRange     '2.0.0',
+415 silly addNameRange     '2.1.0',
+415 silly addNameRange     '2.1.1',
+415 silly addNameRange     '2.2.0',
+415 silly addNameRange     '2.2.1',
+415 silly addNameRange     '2.3.0',
+415 silly addNameRange     '2.3.1',
+415 silly addNameRange     '2.3.2',
+415 silly addNameRange     '2.3.3',
+415 silly addNameRange     '2.3.4',
+415 silly addNameRange     '2.3.5',
+415 silly addNameRange     '2.4.0',
+415 silly addNameRange     '2.5.0',
+415 silly addNameRange     '2.5.1',
+415 silly addNameRange     '2.6.0',
+415 silly addNameRange     '2.7.0',
+415 silly addNameRange     '2.8.0',
+415 silly addNameRange     '2.9.0',
+415 silly addNameRange     '2.10.0',
+415 silly addNameRange     '2.10.1',
+415 silly addNameRange     '2.11.0',
+415 silly addNameRange     '3.0.0',
+415 silly addNameRange     '3.0.1',
+415 silly addNameRange     '3.0.2',
+415 silly addNameRange     '3.0.3',
+415 silly addNameRange     '3.0.4',
+415 silly addNameRange     '3.0.5',
+415 silly addNameRange     '3.0.6',
+415 silly addNameRange     '3.0.7' ] ]
+416 silly addNamed jscs@2.11.0
+417 verbose addNamed "2.11.0" is a plain semver version for jscs
+418 verbose get https://registry.npmjs.org/connect not expired, no request
+419 silly addNameRange number 2 { name: 'connect', range: '>=3.4.1-0 <4.0.0-0', hasData: true }
+420 silly addNameRange versions [ 'connect',
+420 silly addNameRange   [ '0.0.1',
+420 silly addNameRange     '0.0.2',
+420 silly addNameRange     '0.0.3',
+420 silly addNameRange     '0.0.4',
+420 silly addNameRange     '0.0.5',
+420 silly addNameRange     '0.0.6',
+420 silly addNameRange     '0.1.0',
+420 silly addNameRange     '0.2.0',
+420 silly addNameRange     '0.2.1',
+420 silly addNameRange     '0.2.2',
+420 silly addNameRange     '0.2.3',
+420 silly addNameRange     '0.2.4',
+420 silly addNameRange     '0.2.5',
+420 silly addNameRange     '0.2.6',
+420 silly addNameRange     '0.2.7',
+420 silly addNameRange     '0.3.0',
+420 silly addNameRange     '0.4.0',
+420 silly addNameRange     '0.5.0',
+420 silly addNameRange     '0.5.1',
+420 silly addNameRange     '0.5.2',
+420 silly addNameRange     '0.5.3',
+420 silly addNameRange     '0.5.4',
+420 silly addNameRange     '0.5.5',
+420 silly addNameRange     '0.5.6',
+420 silly addNameRange     '0.5.7',
+420 silly addNameRange     '0.5.8',
+420 silly addNameRange     '0.5.9',
+420 silly addNameRange     '0.5.10',
+420 silly addNameRange     '1.0.0',
+420 silly addNameRange     '1.0.1',
+420 silly addNameRange     '1.0.2',
+420 silly addNameRange     '1.0.3',
+420 silly addNameRange     '1.0.4',
+420 silly addNameRange     '1.0.5',
+420 silly addNameRange     '1.0.6',
+420 silly addNameRange     '1.1.0',
+420 silly addNameRange     '1.1.1',
+420 silly addNameRange     '1.1.2',
+420 silly addNameRange     '1.1.3',
+420 silly addNameRange     '1.1.4',
+420 silly addNameRange     '1.1.5',
+420 silly addNameRange     '1.2.0',
+420 silly addNameRange     '1.2.1',
+420 silly addNameRange     '1.2.2',
+420 silly addNameRange     '1.2.3',
+420 silly addNameRange     '1.3.0',
+420 silly addNameRange     '1.4.0',
+420 silly addNameRange     '1.4.1',
+420 silly addNameRange     '1.4.2',
+420 silly addNameRange     '1.4.3',
+420 silly addNameRange     '1.4.4',
+420 silly addNameRange     '1.4.5',
+420 silly addNameRange     '1.4.6',
+420 silly addNameRange     '1.5.0',
+420 silly addNameRange     '1.5.1',
+420 silly addNameRange     '1.5.2',
+420 silly addNameRange     '1.6.0',
+420 silly addNameRange     '1.6.1',
+420 silly addNameRange     '1.6.2',
+420 silly addNameRange     '1.6.3',
+420 silly addNameRange     '1.6.4',
+420 silly addNameRange     '1.7.0',
+420 silly addNameRange     '1.7.1',
+420 silly addNameRange     '1.7.2',
+420 silly addNameRange     '1.7.3',
+420 silly addNameRange     '1.8.0',
+420 silly addNameRange     '1.8.1',
+420 silly addNameRange     '1.8.2',
+420 silly addNameRange     '1.8.3',
+420 silly addNameRange     '1.8.4',
+420 silly addNameRange     '1.8.5',
+420 silly addNameRange     '2.0.0',
+420 silly addNameRange     '2.0.1',
+420 silly addNameRange     '2.0.2',
+420 silly addNameRange     '2.0.3',
+420 silly addNameRange     '1.8.6',
+420 silly addNameRange     '2.1.0',
+420 silly addNameRange     '2.1.1',
+420 silly addNameRange     '2.1.2',
+420 silly addNameRange     '1.8.7',
+420 silly addNameRange     '2.1.3',
+420 silly addNameRange     '2.2.0',
+420 silly addNameRange     '2.2.1',
+420 silly addNameRange     '2.2.2',
+420 silly addNameRange     '2.3.0',
+420 silly addNameRange     '2.3.1',
+420 silly addNameRange     '2.3.2',
+420 silly addNameRange     '2.3.3',
+420 silly addNameRange     '1.9.0',
+420 silly addNameRange     '1.9.1',
+420 silly addNameRange     '2.3.4',
+420 silly addNameRange     '2.3.5',
+420 silly addNameRange     '2.3.6',
+420 silly addNameRange     '2.3.7',
+420 silly addNameRange     '1.9.2',
+420 silly addNameRange     '2.3.8',
+420 silly addNameRange     '2.3.9',
+420 silly addNameRange     '2.4.0',
+420 silly addNameRange     '2.4.1',
+420 silly addNameRange     '2.4.2',
+420 silly addNameRange     '2.4.3',
+420 silly addNameRange     '2.4.4',
+420 silly addNameRange     '2.4.5',
+420 silly addNameRange     '2.4.6',
+420 silly addNameRange     '2.5.0',
+420 silly addNameRange     '2.6.0',
+420 silly addNameRange     '2.6.1',
+420 silly addNameRange     '2.6.2',
+420 silly addNameRange     '2.7.0',
+420 silly addNameRange     '2.7.1',
+420 silly addNameRange     '2.7.2',
+420 silly addNameRange     '2.7.3',
+420 silly addNameRange     '2.7.4',
+420 silly addNameRange     '2.7.5',
+420 silly addNameRange     '2.7.6',
+420 silly addNameRange     '2.7.7',
+420 silly addNameRange     '2.7.8',
+420 silly addNameRange     '2.7.9',
+420 silly addNameRange     '2.7.10',
+420 silly addNameRange     '2.7.11',
+420 silly addNameRange     '2.8.0',
+420 silly addNameRange     '2.8.1',
+420 silly addNameRange     '2.8.2',
+420 silly addNameRange     '2.8.3',
+420 silly addNameRange     '2.8.4',
+420 silly addNameRange     '2.8.5',
+420 silly addNameRange     '2.8.6',
+420 silly addNameRange     '2.8.7',
+420 silly addNameRange     '2.8.8',
+420 silly addNameRange     '2.9.0',
+420 silly addNameRange     '2.9.1',
+420 silly addNameRange     '2.9.2',
+420 silly addNameRange     '2.10.0',
+420 silly addNameRange     '2.10.1',
+420 silly addNameRange     '2.11.0',
+420 silly addNameRange     '2.11.1',
+420 silly addNameRange     '2.11.2',
+420 silly addNameRange     '2.12.0',
+420 silly addNameRange     '2.13.0',
+420 silly addNameRange     '2.13.1',
+420 silly addNameRange     '2.14.0',
+420 silly addNameRange     '2.14.1',
+420 silly addNameRange     '3.0.0-rc.1',
+420 silly addNameRange     '2.14.2',
+420 silly addNameRange     '2.14.3',
+420 silly addNameRange     '2.14.4',
+420 silly addNameRange     '2.14.5',
+420 silly addNameRange     '2.15.0',
+420 silly addNameRange     '3.0.0-rc.2',
+420 silly addNameRange     '2.16.0',
+420 silly addNameRange     '2.16.1',
+420 silly addNameRange     '2.16.2',
+420 silly addNameRange     '2.17.0',
+420 silly addNameRange     '2.17.1',
+420 silly addNameRange     '2.17.2',
+420 silly addNameRange     '2.17.3',
+420 silly addNameRange     '2.18.0',
+420 silly addNameRange     '3.0.0',
+420 silly addNameRange     '2.19.0',
+420 silly addNameRange     '2.19.1',
+420 silly addNameRange     '2.19.2',
+420 silly addNameRange     '2.19.3',
+420 silly addNameRange     '2.19.4',
+420 silly addNameRange     '2.19.5',
+420 silly addNameRange     '2.19.6',
+420 silly addNameRange     '2.20.0',
+420 silly addNameRange     '2.20.1',
+420 silly addNameRange     '2.20.2',
+420 silly addNameRange     '3.0.1',
+420 silly addNameRange     '2.21.0',
+420 silly addNameRange     '2.21.1',
+420 silly addNameRange     '2.22.0',
+420 silly addNameRange     '2.23.0',
+420 silly addNameRange     '3.0.2',
+420 silly addNameRange     '2.24.0',
+420 silly addNameRange     '3.1.0',
+420 silly addNameRange     '2.24.1',
+420 silly addNameRange     '2.24.2',
+420 silly addNameRange     '2.24.3',
+420 silly addNameRange     '2.25.0',
+420 silly addNameRange     '2.25.1',
+420 silly addNameRange     '2.25.2',
+420 silly addNameRange     '2.25.3',
+420 silly addNameRange     '2.25.4',
+420 silly addNameRange     '3.1.1',
+420 silly addNameRange     '2.25.5',
+420 silly addNameRange     '2.25.6',
+420 silly addNameRange     '2.25.7',
+420 silly addNameRange     '2.25.8',
+420 silly addNameRange     '2.25.9',
+420 silly addNameRange     '2.25.10',
+420 silly addNameRange     '2.26.0',
+420 silly addNameRange     '3.2.0',
+420 silly addNameRange     '2.26.1',
+420 silly addNameRange     '2.26.2',
+420 silly addNameRange     '2.26.3',
+420 silly addNameRange     '2.26.4',
+420 silly addNameRange     '2.26.5',
+420 silly addNameRange     '2.26.6',
+420 silly addNameRange     '2.27.0',
+420 silly addNameRange     '3.3.0',
+420 silly addNameRange     '2.27.1',
+420 silly addNameRange     '3.3.1',
+420 silly addNameRange     '2.27.2',
+420 silly addNameRange     '3.3.2',
+420 silly addNameRange     '2.27.3',
+420 silly addNameRange     '3.3.3',
+420 silly addNameRange     '2.27.4',
+420 silly addNameRange     '2.27.5',
+420 silly addNameRange     '2.27.6',
+420 silly addNameRange     '2.28.0',
+420 silly addNameRange     '3.3.4',
+420 silly addNameRange     '2.28.1',
+420 silly addNameRange     '2.28.2',
+420 silly addNameRange     '2.28.3',
+420 silly addNameRange     '2.29.0',
+420 silly addNameRange     '2.29.1',
+420 silly addNameRange     '3.3.5',
+420 silly addNameRange     '2.29.2',
+420 silly addNameRange     '2.30.0',
+420 silly addNameRange     '3.4.0',
+420 silly addNameRange     '2.30.1',
+420 silly addNameRange     '2.30.2',
+420 silly addNameRange     '3.4.1',
+420 silly addNameRange     '3.5.0',
+420 silly addNameRange     '3.5.1',
+420 silly addNameRange     '3.6.0',
+420 silly addNameRange     '3.6.1' ] ]
+421 silly addNamed connect@3.6.1
+422 verbose addNamed "3.6.1" is a plain semver version for connect
+423 silly mapToRegistry name jscs
+424 silly mapToRegistry using default registry
+425 silly mapToRegistry registry https://registry.npmjs.org/
+426 silly mapToRegistry uri https://registry.npmjs.org/jscs
+427 verbose addRemoteTarball https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz not in flight; adding
+428 verbose addRemoteTarball [ 'https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz',
+428 verbose addRemoteTarball   '6e11ef0caaa07731f9dcc2b2b27d8ecee1ddbcb6' ]
+429 silly cache afterAdd jshint-stylish@2.2.1
+430 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\jshint-stylish\2.2.1\package\package.json not in flight; writing
+431 silly cache afterAdd open@0.0.5
+432 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\open\0.0.5\package\package.json not in flight; writing
+433 silly cache afterAdd gulp@3.9.1
+434 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+435 silly cache afterAdd gulp-jscs-stylish@1.4.0
+436 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\gulp-jscs-stylish\1.4.0\package\package.json not in flight; writing
+437 silly cache afterAdd gulp-jshint@2.0.4
+438 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\gulp-jshint\2.0.4\package\package.json not in flight; writing
+439 info retry fetch attempt 1 at 8:28:53 AM
+440 info attempt registry request try #1 at 8:28:53 AM
+441 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+442 verbose request using bearer token for auth
+443 silly cache afterAdd connect@3.6.1
+444 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\connect\3.6.1\package\package.json not in flight; writing
+445 info retry fetch attempt 1 at 8:28:53 AM
+446 info attempt registry request try #1 at 8:28:53 AM
+447 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+448 verbose request using bearer token for auth
+449 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+450 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+451 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\jshint-stylish\2.2.1\package\package.json written
+452 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\open\0.0.5\package\package.json written
+453 info retry fetch attempt 1 at 8:28:53 AM
+454 info attempt registry request try #1 at 8:28:53 AM
+455 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+456 verbose request using bearer token for auth
+457 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\gulp-jscs-stylish\1.4.0\package\package.json written
+458 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+459 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\gulp-jshint\2.0.4\package\package.json written
+460 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+461 verbose afterAdd C:\Users\gibbo\AppData\Roaming\npm-cache\connect\3.6.1\package\package.json written
+462 info attempt registry request try #2 at 8:29:03 AM
+463 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+464 verbose request using bearer token for auth
+465 info attempt registry request try #2 at 8:29:03 AM
+466 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+467 verbose request using bearer token for auth
+468 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+469 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+470 info attempt registry request try #2 at 8:29:03 AM
+471 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+472 verbose request using bearer token for auth
+473 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+474 info attempt registry request try #3 at 8:30:03 AM
+475 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+476 verbose request using bearer token for auth
+477 info attempt registry request try #3 at 8:30:03 AM
+478 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+479 verbose request using bearer token for auth
+480 error fetch failed https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+481 warn retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+482 error fetch failed https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+483 warn retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+484 info attempt registry request try #3 at 8:30:03 AM
+485 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+486 verbose request using bearer token for auth
+487 error fetch failed https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+488 warn retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+489 info retry fetch attempt 2 at 8:30:13 AM
+490 info attempt registry request try #1 at 8:30:13 AM
+491 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+492 verbose request using bearer token for auth
+493 info retry fetch attempt 2 at 8:30:13 AM
+494 info attempt registry request try #1 at 8:30:13 AM
+495 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+496 verbose request using bearer token for auth
+497 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+498 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+499 info retry fetch attempt 2 at 8:30:13 AM
+500 info attempt registry request try #1 at 8:30:13 AM
+501 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+502 verbose request using bearer token for auth
+503 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+504 info attempt registry request try #2 at 8:30:23 AM
+505 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+506 verbose request using bearer token for auth
+507 info attempt registry request try #2 at 8:30:23 AM
+508 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+509 verbose request using bearer token for auth
+510 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+511 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+512 info attempt registry request try #2 at 8:30:23 AM
+513 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+514 verbose request using bearer token for auth
+515 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+516 info attempt registry request try #3 at 8:31:23 AM
+517 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+518 verbose request using bearer token for auth
+519 info attempt registry request try #3 at 8:31:23 AM
+520 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+521 verbose request using bearer token for auth
+522 info attempt registry request try #3 at 8:31:23 AM
+523 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+524 verbose request using bearer token for auth
+525 error fetch failed https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+526 warn retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+527 error fetch failed https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+528 warn retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+529 error fetch failed https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+530 warn retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+531 info retry fetch attempt 3 at 8:32:23 AM
+532 info attempt registry request try #1 at 8:32:23 AM
+533 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+534 verbose request using bearer token for auth
+535 info retry fetch attempt 3 at 8:32:23 AM
+536 info attempt registry request try #1 at 8:32:23 AM
+537 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+538 verbose request using bearer token for auth
+539 info retry fetch attempt 3 at 8:32:23 AM
+540 info attempt registry request try #1 at 8:32:23 AM
+541 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+542 verbose request using bearer token for auth
+543 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+544 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+545 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+546 info attempt registry request try #2 at 8:32:33 AM
+547 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+548 verbose request using bearer token for auth
+549 info attempt registry request try #2 at 8:32:33 AM
+550 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+551 verbose request using bearer token for auth
+552 info attempt registry request try #2 at 8:32:33 AM
+553 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+554 verbose request using bearer token for auth
+555 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+556 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+557 info retry will retry, error on last attempt: Error: connect EACCES 151.101.112.162:443
+558 info attempt registry request try #3 at 8:33:33 AM
+559 http fetch GET https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+560 verbose request using bearer token for auth
+561 info attempt registry request try #3 at 8:33:33 AM
+562 http fetch GET https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+563 verbose request using bearer token for auth
+564 info attempt registry request try #3 at 8:33:33 AM
+565 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+566 verbose request using bearer token for auth
+567 error fetch failed https://registry.npmjs.org/gulp-jscs/-/gulp-jscs-3.0.2.tgz
+568 error fetch failed https://registry.npmjs.org/jscs/-/jscs-2.11.0.tgz
+569 error fetch failed https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+570 silly rollbackFailedOptional Starting
+571 silly rollbackFailedOptional Finishing
+572 silly runTopLevelLifecycles Starting
+573 silly runTopLevelLifecycles Finishing
+574 silly install printInstalled
+575 verbose stack Error: connect EACCES 151.101.112.162:443
+575 verbose stack     at Object.exports._errnoException (util.js:856:11)
+575 verbose stack     at exports._exceptionWithHostPort (util.js:879:20)
+575 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1062:14)
+576 verbose cwd C:\Users\gibbo\Documents\projects\gibbok\dijit-select-optgroup
+577 error Windows_NT 10.0.15063
+578 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
+579 error node v5.4.1
+580 error npm  v3.3.4
+581 error code EACCES
+582 error errno EACCES
+583 error syscall connect
+584 error Error: connect EACCES 151.101.112.162:443
+584 error     at Object.exports._errnoException (util.js:856:11)
+584 error     at exports._exceptionWithHostPort (util.js:879:20)
+584 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1062:14)
+584 error  { [Error: connect EACCES 151.101.112.162:443]
+584 error   code: 'EACCES',
+584 error   errno: 'EACCES',
+584 error   syscall: 'connect',
+584 error   address: '151.101.112.162',
+584 error   port: 443,
+584 error   parent: 'dijit-select-optgroup' }
+585 error Please try running this command again as root/Administrator.
+586 verbose exit [ 1, true ]

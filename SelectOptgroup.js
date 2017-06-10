@@ -3,7 +3,7 @@
     'dojo/_base/lang',
     'dijit/form/Select',
     'dijit/MenuSeparator',
-    'dijit/MenuItem',
+    'MenuItemOptgroup.js',
     'dojo/domReady!'
 ], function (
     declare,
@@ -31,7 +31,7 @@
                             ownerDocument: this.ownerDocument,
                             dir: this.dir,
                             textDir: this.textDir,
-                            disabled: (option.disabled || option.group) || false
+                            disabled: (option.disabled || option.optgroup) || false
                         });
                         item.focusNode.setAttribute("role", "option");
                         return item;
@@ -50,7 +50,7 @@
                     var focusNext = function () {
                         var next = this._getNextFocusableChild(this.focusedChild, 1);
                         this.focusChild(next);
-                        if (next.option.group) {
+                        if (next.option.optgroup) {
                             focusNext();
                         }
                     }.bind(this);
@@ -61,7 +61,7 @@
                     var focusPrev = function () {
                         var prev = this._getNextFocusableChild(this.focusedChild, -1);
                         this.focusChild(prev);
-                        if (prev.option.group) {
+                        if (prev.option.optgroup) {
                             focusPrev();
                         }
                     }.bind(this);
@@ -69,7 +69,7 @@
                 }.bind(this.dropDown);
 
                 this.dropDown.onItemHover = function (item) {
-                    if (item.option.group) {
+                    if (item.option.optgroup) {
                         item._set('hovering', false);
                         return;
                     }
@@ -98,7 +98,7 @@
                 }.bind(this.dropDown);
 
                 this.dropDown._onItemFocus = function (item) {
-                    if (item.option.group) {
+                    if (item.option.optgroup) {
                         return;
                     }
                     if (this._hoveredChild && this._hoveredChild != item) {

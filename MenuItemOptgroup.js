@@ -13,7 +13,8 @@
 ) {
         return declare(MenuItem, {
             // summary:
-            //      Add `optgroup` and `option` CSS classes to `domNode` as template customization.
+            //      Customize the template for rendering.
+            //      Add `optgroup` and `option` CSS classes to `domNode`.
             buildRendering: function () {
                 this.inherited(arguments);
                 var label = this.id + "_text";

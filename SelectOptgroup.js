@@ -18,6 +18,8 @@
                 this.inherited(arguments);
 
                 this._getMenuItemForOption = function (option) {
+			        // summary:
+			        //		For the given option, return the menu item that should be used to display it.
                     if (!option.value && !option.label) {
                         return new MenuSeparator({ ownerDocument: this.ownerDocument });
                     } else {
@@ -39,14 +41,20 @@
                 };
 
                 this.dropDown._onUpArrow = function () {
+                    // summary:
+                    //      Called on up arrow key. Should go to the previous child in vertical container widgets like Menu.
                     this.focusPrev()
                 }.bind(this.dropDown);
 
                 this.dropDown._onDownArrow = function () {
+                    // summary:
+			        //		Called on down arrow key. Should go to the next child in vertical container widgets like Menu.
                     this.focusNext()
                 }.bind(this.dropDown);
 
                 this.dropDown.focusNext = function () {
+                    // summary:
+			        //		Focus the next child menu item and skip `optgroup` if found.
                     var focusNext = function () {
                         var next = this._getNextFocusableChild(this.focusedChild, 1);
                         this.focusChild(next);
@@ -58,6 +66,8 @@
                 }.bind(this.dropDown);
 
                 this.dropDown.focusPrev = function () {
+                    // summary:
+			        //		Focus the previous child menu item and skip `optgroup` if found.
                     var focusPrev = function () {
                         var prev = this._getNextFocusableChild(this.focusedChild, -1);
                         this.focusChild(prev);
@@ -69,6 +79,8 @@
                 }.bind(this.dropDown);
 
                 this.dropDown.onItemHover = function (item) {
+                    // summary:
+			        //		Called when cursor is over a menu item, skip `optgroup` if found.
                     if (item.option.optgroup) {
                         item._set('hovering', false);
                         return;
@@ -98,6 +110,9 @@
                 }.bind(this.dropDown);
 
                 this.dropDown._onItemFocus = function (item) {
+                    // summary:
+			        //		Called when child of this Menu gets focus from:
+                    //      clicking, tabbing, being opened by a parent menu.
                     if (item.option.optgroup) {
                         return;
                     }

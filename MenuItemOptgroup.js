@@ -12,10 +12,10 @@
     MenuItem
 ) {
         return declare(MenuItem, {
-            // summary:
-            //      Customize the template for rendering.
-            //      Add `optgroup` and `option` CSS classes to `domNode`.
             buildRendering: function () {
+                // summary:
+                //      Customize the template for rendering.
+                //      Add `optgroup` and `option` CSS classes to `domNode`.
                 this.inherited(arguments);
                 var label = this.id + "_text";
                 var cssClass = this.option.optgroup === true ? 'SelectOptgroup__flattened' : 'SelectOptgroup__nested';

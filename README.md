@@ -3,6 +3,8 @@ SelectOptgroup is a styleable, searchable drop down select box for [Dojo Toolkit
 
 SelectOptgroup extends [dijit.form.Select](http://dojotoolkit.org/reference-guide/1.10/dijit/form/Select.html) maintaining its API and core functionalities.
 
+[Try live example](https://gibbok.github.io/dijit-select-optgroup).
+
 ---
 
 ### Great! So how do I use it?

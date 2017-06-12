@@ -5,6 +5,7 @@
     <title>SelectOptgroup Demo Page</title>
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/dojo/1.12.2/dijit/themes/claro/claro.css" />
     <script>
+        // configure dojo
         window.dojoConfig = {
             parseOnLoad: false,
             async: true
@@ -49,14 +50,6 @@
             transform: translate(-20%, -50%);
         }
 
-        .SelectOptgroup__nested .dijitMenuItemLabel {
-            padding-left: 25px !important;
-        }
-
-        .SelectOptgroup__flattened .dijitMenuItemLabel {
-            padding-left: 0 !important;
-        }
-
         .wrapper-select {
             margin-top: 30px;
         }
@@ -66,6 +59,17 @@
             background-position: right center;
             background-repeat: no-repeat;
             padding-right: 28px;
+        }
+        
+        /* SelectOptgroup related styles */
+        .SelectOptgroup__nested .dijitMenuItemLabel {
+            /* style menu item as optgroup */
+            padding-left: 25px !important;
+        }
+
+        .SelectOptgroup__flattened .dijitMenuItemLabel {
+            /* style menu item as option */
+            padding-left: 0 !important;
         }
     </style>
     <script>
@@ -81,11 +85,11 @@
                         {
                             label: 'JavaScript Frameworks',
                             value: '',
-                            optgroup: true
+                            optgroup: true // mark menu item as optgroup
                         },
                         {
                             label: 'AngularJS',
-                            value: 'angular '
+                            value: 'angular ' // mark menu item as option
                         },
                         {
                             label: 'Backbone.js',
@@ -131,7 +135,7 @@
                             value: 'prototype'
                         },
                         {
-                            label: '',
+                            label: '', // empty strings mark menu item as separator
                             value: ''
                         },
                         {
@@ -140,7 +144,7 @@
                             optgroup: true
                         },
                         {
-                            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>',
+                            label: '<div class="SelectOptgroup__nested"><span class="select__icon">Grunt</span></div>', // html allowed in menu item
                             value: 'grunt'
                         },
                         {
@@ -164,6 +168,7 @@
                 }, 'select');
 
                 select.on('change', function () {
+                    // detect when an input value was changed
                     console.log(this.get('value'));
                 })
             });

@@ -1,4 +1,6 @@
-﻿var gulp = require('gulp');
+/*! dijit-select-optgroup | The MIT License (MIT) | Copyright (c) 2017 GibboK */
+
+var gulp = require('gulp');
 var connect = require('gulp-connect');
 var open = require('open');
 var jscs = require('gulp-jscs');

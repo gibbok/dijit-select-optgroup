@@ -1,4 +1,5 @@
 /*! dijit-select-optgroup | The MIT License (MIT) | Copyright (c) 2017 GibboK */
+
 define([
     'dojo/_base/declare',
     'dojo/_base/lang',

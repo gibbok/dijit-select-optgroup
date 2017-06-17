@@ -1,4 +1,5 @@
-﻿define([
+/*! dijit-select-optgroup | The MIT License (MIT) | Copyright (c) 2017 GibboK */
+define([
     'dojo/_base/declare',
     'dojo/_base/lang',
     'dijit/form/Select',
@@ -10,51 +11,51 @@
     lang,
     Select,
     MenuSeparator,
-    MenuItem,
-    ) {
+    MenuItem
+) {
         return declare(Select, {
             class: 'SelectOptgroup',
             postCreate: function () {
                 this.inherited(arguments);
 
                 this._getMenuItemForOption = function (option) {
-			        // summary:
-			        //		For the given option, return the menu item that should be used to display it.
+                    // summary:
+                    //		For the given option, return the menu item that should be used to display it.
                     if (!option.value && !option.label) {
                         return new MenuSeparator({ ownerDocument: this.ownerDocument });
                     } else {
-                        var click = lang.hitch(this, "_setValueAttr", option);
-                        var item = new MenuItem({
-                            option: option,
-                            label: (this.labelType === 'text' ? (option.label || '').toString()
-                                .replace(/&/g, '&amp;').replace(/</g, '&lt;') :
-                                option.label) || this.emptyLabel,
-                            onClick: click,
-                            ownerDocument: this.ownerDocument,
-                            dir: this.dir,
-                            textDir: this.textDir,
-                            disabled: (option.disabled || option.optgroup) || false
-                        });
-                        item.focusNode.setAttribute("role", "option");
+                        var click = lang.hitch(this, '_setValueAttr', option),
+                            item = new MenuItem({
+                                option: option,
+                                label: (this.labelType === 'text' ? (option.label || '').toString()
+                                    .replace(/&/g, '&amp;').replace(/</g, '&lt;') :
+                                    option.label) || this.emptyLabel,
+                                onClick: click,
+                                ownerDocument: this.ownerDocument,
+                                dir: this.dir,
+                                textDir: this.textDir,
+                                disabled: (option.disabled || option.optgroup) || false
+                            });
+                        item.focusNode.setAttribute('role', 'option');
                         return item;
                     }
                 };
 
                 this.dropDown._onUpArrow = function () {
                     // summary:
-                    //      Called on up arrow key. Should go to the previous child in vertical container widgets like Menu.
-                    this.focusPrev()
+                    //      Called on up arrow key. Should go to previous child in vertical container widgets like Menu.
+                    this.focusPrev();
                 }.bind(this.dropDown);
 
                 this.dropDown._onDownArrow = function () {
                     // summary:
-			        //		Called on down arrow key. Should go to the next child in vertical container widgets like Menu.
-                    this.focusNext()
+                    //		Called on down arrow key. Should go to next child in vertical container widgets like Menu.
+                    this.focusNext();
                 }.bind(this.dropDown);
 
                 this.dropDown.focusNext = function () {
                     // summary:
-			        //		Focus the next child menu item and skip `optgroup` if found.
+                    //		Focus the next child menu item and skip `optgroup` if found.
                     var focusNext = function () {
                         var next = this._getNextFocusableChild(this.focusedChild, 1);
                         this.focusChild(next);
@@ -67,7 +68,7 @@
 
                 this.dropDown.focusPrev = function () {
                     // summary:
-			        //		Focus the previous child menu item and skip `optgroup` if found.
+                    //		Focus the previous child menu item and skip `optgroup` if found.
                     var focusPrev = function () {
                         var prev = this._getNextFocusableChild(this.focusedChild, -1);
                         this.focusChild(prev);
@@ -80,7 +81,7 @@
 
                 this.dropDown.onItemHover = function (item) {
                     // summary:
-			        //		Called when cursor is over a menu item, skip `optgroup` if found.
+                    //		Called when cursor is over a menu item, skip `optgroup` if found.
                     if (item.option.optgroup) {
                         item._set('hovering', false);
                         return;
@@ -111,12 +112,12 @@
 
                 this.dropDown._onItemFocus = function (item) {
                     // summary:
-			        //		Called when child of this Menu gets focus from:
+                    //		Called when child of this Menu gets focus from:
                     //      clicking, tabbing, being opened by a parent menu.
                     if (item.option.optgroup) {
                         return;
                     }
-                    if (this._hoveredChild && this._hoveredChild != item) {
+                    if (this._hoveredChild && this._hoveredChild !== item) {
                         this.onItemUnhover(this._hoveredChild);
                     }
                     this.set('selected', item);

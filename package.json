@@ -1,6 +1,6 @@
 {
     "name": "dijit-select-optgroup",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "SelectOptgroup is a styleable, searchable drop down select box for Dojo which includes grouping of options.",
     "main": "SelectOptgroup.js",
     "keywords": [
